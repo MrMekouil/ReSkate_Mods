@@ -1,0 +1,36 @@
+# Fichiers locaux et temporaires
+*.log
+*.tmp
+*.swp
+*~
+.cache/
+tmp/
+temp/
+.local/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js (si utilisé par un outil)
+node_modules/
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets et configurations locales
+.env
+.env.*
+!.env.example
+
+# Copies locales de fichiers du jeu (ne pas versionner)
+game_dumps/
+local_game_files/
+extracted_game/
